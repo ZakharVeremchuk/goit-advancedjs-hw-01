@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.feedback-form label{
+    display: flex;
+    flex-direction: column;
+}
+
+.email {
+    width: 360px;
+    height: 40px;
+    margin: 8px 0;
+    border: 1px solid #808080;
+    border-radius: 4px;
+}
+
+.email:hover {
+    border-color: black;
+}
+
+.email:active {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #2E2F42;
+}
+
+.message {
+    width: 360px;
+    height: 80px;
+    margin: 8px 0 16px 0;
+    border: 1px solid #808080;
+    border-radius: 4px;
+}
+
+.submit {
+    width: 95px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #4E75FF;
+    color: white;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+}
+
+.submit:hover{
+    background-color: #6C8CFF;
+}
